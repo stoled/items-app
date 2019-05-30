@@ -1,9 +1,12 @@
 import React from 'react';
 import './ItemList.scss';
+import Item from '../Item/Item'
 
-export default function Navbar() {
-  return <section>
-    <h1>Items</h1>
-  </section>;
+export default function ItemList() {
+  return <div className="container mt-5">
+    <div class="row">
+      <Item />
+    </div>
+  </div>;
 }
 
