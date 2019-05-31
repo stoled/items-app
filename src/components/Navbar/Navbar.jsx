@@ -20,7 +20,7 @@ export default class Navbar extends Component {
               <Link className="nav-link" to="/about">About <span className="sr-only">(current)</span></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" to="/catalog">Catalog <span className="sr-only">(current)</span></Link>
+              <Link className="nav-link" to="/catalog">Catalog <span className="sr-only">(current)</span></Link>
             </li>
           </ul>
         </div>

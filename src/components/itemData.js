@@ -1,30 +1,30 @@
 export const itemData = [
   {
     id: 1,
-    name: "Автоматические выключатели",
+    name: "Item 1",
     img: "./img/1.jpg",
     info:
-      "25992 шт."
+      "$199.99"
   },
   {
     id: 2,
-    name: "Дифференциальные устройства ",
+    name: "Item 2",
     img: "./img/2.jpg",
     info:
-      "2739 шт."
+      "$299.99"
   },
   {
     id: 3,
-    name: "Пускорегулирующие устройства ",
+    name: "Item 3",
     img: "./img/3.jpg",
     info:
-      "1047 шт."
+      "$399.99"
   },
   {
     id: 4,
-    name: "Реле",
+    name: "Item 4",
     img: "./img/4.jpg",
     info:
-      "3813 шт."
+      "$499.99"
   }
 ];

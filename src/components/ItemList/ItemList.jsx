@@ -10,7 +10,7 @@ export default class ItemList extends Component {
   render() {
     const {items} = this.state;
     return (
-      <div className="container mt-5">
+      <div className="container mt-3">
         <div className="row">
           {items.map(item => {
             return (

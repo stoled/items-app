@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
-import ItemList from '../components/ItemList/ItemList';
+import Header from '../components/Header/Header';
 
 class Home extends Component {
   render() {
     return (
-      <div className="pb-auto">
+      <div>
         <Navbar />
-        <main role="main" className="flex-shrink-0">
-          <h1>Home</h1>
-        </main>
+        <Header />
         <Footer />
       </div>
     );
