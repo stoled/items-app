@@ -1,30 +1,30 @@
 export const itemData = [
   {
     id: 1,
-    name: "First",
+    name: "Автоматические выключатели",
     img: "./img/1.jpg",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "25992 шт."
   },
   {
     id: 2,
-    name: "Second",
+    name: "Дифференциальные устройства ",
     img: "./img/2.jpg",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "2739 шт."
   },
   {
     id: 3,
-    name: "Third",
+    name: "Пускорегулирующие устройства ",
     img: "./img/3.jpg",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "1047 шт."
   },
   {
     id: 4,
-    name: "Fourth",
+    name: "Реле",
     img: "./img/4.jpg",
     info:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,repellendus!"
+      "3813 шт."
   }
 ];

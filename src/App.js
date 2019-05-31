@@ -1,14 +1,16 @@
-import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import ItemList from './components/ItemList/ItemList';
-
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.scss';
+import Home from './pages/Home';
 
-function App() {
-  return  <main>
-    <Navbar />
-    <ItemList />
-  </main>;
+class App extends Component {
+  render() {
+    return ( 
+      <Router>
+        <Route exact path = "/" component = { Home }/>
+      </Router>
+    );
+  }
 }
 
 export default App;
